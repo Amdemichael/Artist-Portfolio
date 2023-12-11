@@ -4,6 +4,8 @@ body {
 
 h1 {
   display: inline-block;
+  font-weight: 300;
+  margin-right: 32px;
 }
 nav {
   display: inline-block;
@@ -16,4 +18,14 @@ nav {
   font-size: 20px;
   margin: 0 8px;
   text-decoration: none;
+}
+
+.links ul {
+  padding: 0px;
+}
+.navbar {
+  margin: 32px;
+}
+a.active {
+  border-bottom: 1px black solid;
 }
