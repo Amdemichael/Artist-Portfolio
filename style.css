@@ -29,3 +29,7 @@ nav {
 a.active {
   border-bottom: 1px black solid;
 }
+img {
+  width: 40%;
+  height: 500px;
+}
