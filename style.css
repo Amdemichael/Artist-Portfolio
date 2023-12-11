@@ -29,7 +29,9 @@ nav {
 a.active {
   border-bottom: 1px black solid;
 }
-
+.gallery {
+  padding: 16px;
+}
 .card {
   width: 49.79%;
   display: inline-block;
@@ -39,7 +41,10 @@ a.active {
 .card img {
   height: 500px;
   width: 100%;
+  object-fit: cover;
 }
 .card h2 {
   display: inline-block;
+  font-weight: 300;
+  margin: 8px 0 16px 0;
 }
