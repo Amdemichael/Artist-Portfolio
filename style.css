@@ -48,3 +48,32 @@ a.active {
   font-weight: 300;
   margin: 8px 0 16px 0;
 }
+
+.content {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0 100px 200px;
+}
+
+.content h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.cta {
+  border-bottom: 1px black solid;
+  padding-bottom: 8px;
+  display: inline-block;
+  margin-top: 0;
+}
+.card img:hover {
+  opacity: 0.8;
+}
